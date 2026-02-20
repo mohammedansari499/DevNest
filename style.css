@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    color: #8b5cf6;
+    font-weight: 700;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #8b5cf6;
+    padding: 8px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #8b5cf6;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 55px;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background: #8b5cf6;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    box-shadow: 0 0 20px #8b5cf6;
+}
+
+/* Services */
+.services {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 80px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 20px;
+    width: 260px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    background: #25D366;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.whatsapp:hover {
+    background: #128C7E;
+    box-shadow: 0 0 20px #8b5cf6
+}
